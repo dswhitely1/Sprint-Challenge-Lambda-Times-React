@@ -4,7 +4,7 @@ const withAuthenticate = LambdaPage => Login =>
     class extends Component {
         state = {
             isAuth: false
-        }
+        };
 
         componentDidMount() {
             if (localStorage.getItem('username')) {

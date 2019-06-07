@@ -31,20 +31,22 @@ class Login extends Component {
     }
 
     render() {
+        const {username, password, warning} = this.state;
         return (
             <Container>
                 <h1 className={'text-dark'}>Lambda Times</h1>
                 <Form onSubmit={this.handleSubmit} className={'mx-auto'}>
                     <Form.Group controlId="formUserName">
                         <Form.Label className={'text-dark'}>User Name</Form.Label>
-                        <Form.Control type="text" placeholder="Username" name={'username'} value={this.state.username}onChange={this.handleChange}/>
-                        {this.state.warning && <Form.Text className={'text-danger'}>
+                        <Form.Control type="text" placeholder="Username" name={'username'} value={username}
+                                      onChange={this.handleChange}/>
+                        {warning && <Form.Text className={'text-danger'}>
                             You must provide an username</Form.Text>}
                     </Form.Group>
 
                     <Form.Group controlId="formBasicPassword">
                         <Form.Label className={'text-dark'}>Password</Form.Label>
-                        <Form.Control type="password" placeholder="Password" name={'password'} value={this.state.password}
+                        <Form.Control type="password" placeholder="Password" name={'password'} value={password}
                                       onChange={this.handleChange}/>
                     </Form.Group>
                     <Button variant="primary" type={'submit'}>
