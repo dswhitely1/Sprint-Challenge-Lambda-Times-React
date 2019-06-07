@@ -21,7 +21,7 @@ Self-Study/Essay Questions
 
     A Higher Order Container, or HOC for short, is a Container that takes Container as a parameter and returns a mutated Container.  A good example of this is a login authentication system.  When you pass the app is rendered to the page, you pass the Homepage and the Login Page into the HOC.  The HOC will hold state to do checks to see if a user is authenticated and if it is true, it will render the HomePage else it will render the Login Page.
 
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+- [x] What are three different ways to style components in React? Explain some of the benefits of each.
 
     1. CSS, SASS, etc
         * CSS Stylesheets is the vanilla way to style in react.  Using CSS or SASS with the `node-sass` package, you can style how you like but you have to come up with the styles and usually takes more time than using a framework.

@@ -26,5 +26,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "semi": true,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": true,
+    "bracketSpacing": true,
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "singleQuote": true
   }
 }

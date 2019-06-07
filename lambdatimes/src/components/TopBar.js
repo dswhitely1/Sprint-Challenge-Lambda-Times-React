@@ -15,21 +15,21 @@ const StyledTopBar = styled.div`
 `;
 
 const TopBar = () => {
-  return (
-    <StyledTopBar>
-      <Container>
-        <Container left>
-          <span>TOPICS</span><span>SEARCH</span>
-        </Container>
-        <Container center>
-          <span>GENERAL</span><span>BROWNBAG</span><span>RANDOM</span><span>MUSIC</span><span>ANNOUNCEMENTS</span>
-        </Container>
-        <Container right>
-          <span>LOG IN</span>
-        </Container>
-      </Container>
-    </StyledTopBar>
-  )
+    return (
+        <StyledTopBar>
+            <Container>
+                <Container left>
+                    <span>TOPICS</span><span>SEARCH</span>
+                </Container>
+                <Container center>
+                    <span>GENERAL</span><span>BROWNBAG</span><span>RANDOM</span><span>MUSIC</span><span>ANNOUNCEMENTS</span>
+                </Container>
+                <Container right>
+                    <span>LOG IN</span>
+                </Container>
+            </Container>
+        </StyledTopBar>
+    )
 };
 
 
