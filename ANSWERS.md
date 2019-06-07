@@ -17,9 +17,9 @@ Self-Study/Essay Questions
     3.  Unmounting
         * componentWillUnmount
    
-- [x] Explain the details of a Higher Order Container?
+- [x] Explain the details of a Higher Order Container? `This should be Component.`
 
-    A Higher Order Container, or HOC for short, is a Container that takes Container as a parameter and returns a mutated Container.  A good example of this is a login authentication system.  When you pass the app is rendered to the page, you pass the Homepage and the Login Page into the HOC.  The HOC will hold state to do checks to see if a user is authenticated and if it is true, it will render the HomePage else it will render the Login Page.
+    A Higher Order Component, or HOC for short, is a Component that takes Component as a parameter and returns a mutated Component.  A good example of this is a login authentication system.  When you pass the app is rendered to the page, you pass the Homepage and the Login Page into the HOC.  The HOC will hold state to do checks to see if a user is authenticated and if it is true, it will render the HomePage else it will render the Login Page.
 
 - [x] What are three different ways to style components in React? Explain some of the benefits of each.
 

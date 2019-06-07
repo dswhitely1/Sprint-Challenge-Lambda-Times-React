@@ -30,7 +30,7 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 - [x] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
 - [x] Describe a life-cycle event in React?
-- [x] Explain the details of a Higher Order Container?
+- [x] Explain the details of a Higher Order Container? `This should be Component`
 - [x] What are three different ways to style components in React? Explain some of the benefits of each.
 
 ## Project Setup

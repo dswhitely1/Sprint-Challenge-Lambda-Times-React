@@ -40,13 +40,13 @@ const Information = styled.span`
   flex: 1;
 
   ${props =>
-    props.date &&
-    css`
+  props.date &&
+  css`
       margin-left: 25px;
     `}
   ${props =>
-    props.temp &&
-    css`
+  props.temp &&
+  css`
       text-align: right;
       margin-right: 25px;
     `}
