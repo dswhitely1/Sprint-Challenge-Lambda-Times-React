@@ -14,7 +14,8 @@ const StyledTopBar = styled.div`
   background-color: #333;
 `;
 
-const TopBar = () => {
+const TopBar = props => {
+    const {logOut} = props;
     return (
         <StyledTopBar>
             <Container>
@@ -25,7 +26,7 @@ const TopBar = () => {
                     <span>GENERAL</span><span>BROWNBAG</span><span>RANDOM</span><span>MUSIC</span><span>ANNOUNCEMENTS</span>
                 </Container>
                 <Container right>
-                    <span>LOG IN</span>
+                    <span onClick={logOut}>LOG OUT</span>
                 </Container>
             </Container>
         </StyledTopBar>
