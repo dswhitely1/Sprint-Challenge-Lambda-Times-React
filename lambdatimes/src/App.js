@@ -1,16 +1,10 @@
-import React, { Component } from 'react';
-import TopBar from './components/TopBar';
-import Header from './components/Header';
-import Content from './components/Content/Content';
+import React from 'react';
+import LambdaPage from './components/LambdaPage';
+import Login from './components/Login';
+import withAuthenticate from './authentication/withAuthenticate';
 
-const App = () => {
-  return (
-    <div className="App">
-      <TopBar />
-      <Header />
-      <Content />
-    </div>
-  );
-}
+const HOCApp = withAuthenticate( LambdaPage )( Login );
+
+const App = () => <HOCApp />;
 
 export default App;
